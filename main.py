@@ -47,4 +47,4 @@ def submit1():
         return render_template("CH.html",pred=str(np.where(prediction1[0]==1,"Yes","No")))
 
 if __name__=='__main__':
-    app.run()
+    app.run(port=3000)
